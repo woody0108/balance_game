@@ -53,6 +53,8 @@
     <Compile Include="Assets\1Main\Scripts\Manager\UIManager.cs" />
     <Compile Include="Assets\1Main\Scripts\Data\TopicData.cs" />
     <Compile Include="Assets\1Main\Scripts\SafeAreaHandler.cs" />
+    <Compile Include="Assets\1Main\Scripts\Manager\SimpleGoogleLogin.cs" />
+    <Compile Include="Assets\1Main\Scripts\Manager\GPGSManager.cs" />
     <Compile Include="Assets\1Main\Scripts\Manager\FirebaseManager.cs" />
   </ItemGroup>
   <ItemGroup>
