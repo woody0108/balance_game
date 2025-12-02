@@ -46,10 +46,18 @@ public class UIManager : MonoBehaviour
     {
         // TopicManager 이벤트 구독
         SubscribeEvents();
-        
-        // TopicCardUI 버튼 이벤트 연결
+
+        // 버튼 이벤트 연결
         SetupButtonListeners();
+
+        // 🔥 이미 TopicManager가 데이터 로드한 상태라면 즉시 UI 반영
+        if (TopicManager.Instance != null && TopicManager.Instance.CurrentTopic != null)
+        {
+            Debug.Log("[UIManager] 🔄 기존 Topic 데이터 감지 → UI 즉시 업데이트");
+            HandleTopicLoaded(TopicManager.Instance.CurrentTopic);
+        }
     }
+
 
     private void OnDestroy()
     {
@@ -161,7 +169,7 @@ public class UIManager : MonoBehaviour
         if (topicCardUI != null)
         {
             topicCardUI.SetButtonsInteractable(false);
-            
+
             // 1초 후 다시 활성화 (테스트용, 실제로는 사용자별 투표 제한 필요)
             Invoke(nameof(EnableVoteButtons), 1f);
         }
@@ -173,7 +181,7 @@ public class UIManager : MonoBehaviour
     private void HandleError(string errorMessage)
     {
         Debug.LogError($"[UIManager] ❌ 에러: {errorMessage}");
-        
+
         // TODO: 에러 팝업 표시
     }
     #endregion
