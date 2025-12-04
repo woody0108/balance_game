@@ -63,10 +63,10 @@ public class FirebaseManager : MonoBehaviour
         Debug.Log("[FirebaseManager] ✅ 생성 완료 (DontDestroyOnLoad)");
     }
 
-    private void Start()
+    private async void Start()
     {
         // 자동 초기화
-        InitializeAsync();
+        await InitializeAsync();
     }
 
     private void OnDestroy()

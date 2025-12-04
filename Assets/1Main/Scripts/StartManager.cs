@@ -9,9 +9,9 @@ using System.Collections;
 /// - LoadingCanvas를 UIObjectPoolingManager에서 가져옴
 /// - MainScene으로 넘어갈 때 LoadingCanvas를 DontDestroyOnLoad로 유지
 /// </summary>
-public class StartUIManager : MonoBehaviour
+public class StartManager : MonoBehaviour
 {
-    public static StartUIManager Instance { get; private set; }
+    public static StartManager Instance { get; private set; }
 
     [Header("StartScene UI")]
     [SerializeField] private Button touchPanel;
