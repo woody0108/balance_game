@@ -1,0 +1,108 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {
+      "Unity.Burst/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Unity.Burst.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.Burst.dll": {}
+        }
+      },
+      "Unity.Mathematics/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Unity.Mathematics.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.Mathematics.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Unity.Burst/1.0.0": {
+      "type": "project",
+      "path": "Unity.Burst.csproj",
+      "msbuildProject": "Unity.Burst.csproj"
+    },
+    "Unity.Mathematics/1.0.0": {
+      "type": "project",
+      "path": "Unity.Mathematics.csproj",
+      "msbuildProject": "Unity.Mathematics.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": [
+      "Unity.Burst >= 1.0.0",
+      "Unity.Mathematics >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\woody\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\balancegame\\Unity.Collections.csproj",
+      "projectName": "Unity.Collections",
+      "projectPath": "D:\\balancegame\\Unity.Collections.csproj",
+      "packagesPath": "C:\\Users\\woody\\.nuget\\packages\\",
+      "outputPath": "D:\\balancegame\\Temp\\obj\\Unity.Collections\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\woody\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "projectReferences": {
+            "D:\\balancegame\\Unity.Burst.csproj": {
+              "projectPath": "D:\\balancegame\\Unity.Burst.csproj"
+            },
+            "D:\\balancegame\\Unity.Mathematics.csproj": {
+              "projectPath": "D:\\balancegame\\Unity.Mathematics.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.312\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

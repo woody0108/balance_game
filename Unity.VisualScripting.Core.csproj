@@ -372,9 +372,9 @@
     <Compile Include="Library\PackageCache\com.unity.visualscripting@6279e2b7c485\Runtime\VisualScripting.Core\Graphs\IGraphParentElement.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@6279e2b7c485\Runtime\VisualScripting.Core\Listeners\MonoBehaviour\UnityOnCollisionExit2DMessageListener.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@6279e2b7c485\Runtime\VisualScripting.Core\Utilities\OverrideStack.cs" />
-    <Compile Include="Library\PackageCache\com.unity.visualscripting@6279e2b7c485\Runtime\VisualScripting.Core\Graphs\IGraphDebugData.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@6279e2b7c485\Runtime\VisualScripting.Core\Dependencies\FullSerializer\fsIgnoreAttribute.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@6279e2b7c485\Runtime\VisualScripting.Core\Dependencies\FullSerializer\fsConverter.cs" />
+    <Compile Include="Library\PackageCache\com.unity.visualscripting@6279e2b7c485\Runtime\VisualScripting.Core\Graphs\IGraphDebugData.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@6279e2b7c485\Runtime\VisualScripting.Core\Listeners\MonoBehaviour\UnityOnTriggerStayMListener.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@6279e2b7c485\Runtime\VisualScripting.Core\Reflection\Operators\IncrementHandler.cs" />
     <Compile Include="Library\PackageCache\com.unity.visualscripting@6279e2b7c485\Runtime\VisualScripting.Core\Utilities\ReferenceEqualityComparer.cs" />

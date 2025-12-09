@@ -1,0 +1,2581 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\balancegame\\Assembly-CSharp.csproj": {}
+  },
+  "projects": {
+    "D:\\balancegame\\Assembly-CSharp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\balancegame\\Assembly-CSharp.csproj",
+        "projectName": "Assembly-CSharp",
+        "projectPath": "D:\\balancegame\\Assembly-CSharp.csproj",
+        "packagesPath": "C:\\Users\\woody\\.nuget\\packages\\",
+        "outputPath": "D:\\balancegame\\Temp\\obj\\Assembly-CSharp\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\woody\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\balancegame\\PsdPlugin.csproj": {
+                "projectPath": "D:\\balancegame\\PsdPlugin.csproj"
+              },
+              "D:\\balancegame\\Unity.2D.Animation.Editor.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.2D.Animation.Editor.csproj"
+              },
+              "D:\\balancegame\\Unity.2D.Animation.Runtime.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.2D.Animation.Runtime.csproj"
+              },
+              "D:\\balancegame\\Unity.2D.Aseprite.Common.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.2D.Aseprite.Common.csproj"
+              },
+              "D:\\balancegame\\Unity.2D.Aseprite.Editor.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.2D.Aseprite.Editor.csproj"
+              },
+              "D:\\balancegame\\Unity.2D.Common.Editor.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.2D.Common.Editor.csproj"
+              },
+              "D:\\balancegame\\Unity.2D.Common.Path.Editor.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.2D.Common.Path.Editor.csproj"
+              },
+              "D:\\balancegame\\Unity.2D.Common.Runtime.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.2D.Common.Runtime.csproj"
+              },
+              "D:\\balancegame\\Unity.2D.IK.Editor.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.2D.IK.Editor.csproj"
+              },
+              "D:\\balancegame\\Unity.2D.IK.Runtime.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.2D.IK.Runtime.csproj"
+              },
+              "D:\\balancegame\\Unity.2D.Psdimporter.Editor.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.2D.Psdimporter.Editor.csproj"
+              },
+              "D:\\balancegame\\Unity.2D.SpriteShape.Editor.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.2D.SpriteShape.Editor.csproj"
+              },
+              "D:\\balancegame\\Unity.2D.SpriteShape.Runtime.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.2D.SpriteShape.Runtime.csproj"
+              },
+              "D:\\balancegame\\Unity.2D.Tilemap.Extras.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.2D.Tilemap.Extras.csproj"
+              },
+              "D:\\balancegame\\Unity.2D.Tilemap.Extras.Editor.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.2D.Tilemap.Extras.Editor.csproj"
+              },
+              "D:\\balancegame\\Unity.Burst.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.Burst.csproj"
+              },
+              "D:\\balancegame\\Unity.Burst.Editor.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.Burst.Editor.csproj"
+              },
+              "D:\\balancegame\\Unity.Collections.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.Collections.csproj"
+              },
+              "D:\\balancegame\\Unity.Collections.Editor.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.Collections.Editor.csproj"
+              },
+              "D:\\balancegame\\Unity.InputSystem.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.InputSystem.csproj"
+              },
+              "D:\\balancegame\\Unity.InputSystem.ForUI.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.InputSystem.ForUI.csproj"
+              },
+              "D:\\balancegame\\Unity.InternalAPIEditorBridge.001.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.InternalAPIEditorBridge.001.csproj"
+              },
+              "D:\\balancegame\\Unity.InternalAPIEngineBridge.001.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.InternalAPIEngineBridge.001.csproj"
+              },
+              "D:\\balancegame\\Unity.Mathematics.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.Mathematics.csproj"
+              },
+              "D:\\balancegame\\Unity.Mathematics.Editor.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.Mathematics.Editor.csproj"
+              },
+              "D:\\balancegame\\Unity.Mobile.AndroidLogcat.Editor.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.Mobile.AndroidLogcat.Editor.csproj"
+              },
+              "D:\\balancegame\\Unity.PlasticSCM.Editor.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.PlasticSCM.Editor.csproj"
+              },
+              "D:\\balancegame\\Unity.Rider.Editor.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.Rider.Editor.csproj"
+              },
+              "D:\\balancegame\\Unity.Searcher.Editor.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.Searcher.Editor.csproj"
+              },
+              "D:\\balancegame\\Unity.Timeline.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.Timeline.csproj"
+              },
+              "D:\\balancegame\\Unity.Timeline.Editor.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.Timeline.Editor.csproj"
+              },
+              "D:\\balancegame\\Unity.VisualScripting.Core.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.VisualScripting.Core.csproj"
+              },
+              "D:\\balancegame\\Unity.VisualScripting.Core.Editor.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.VisualScripting.Core.Editor.csproj"
+              },
+              "D:\\balancegame\\Unity.VisualScripting.Flow.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.VisualScripting.Flow.csproj"
+              },
+              "D:\\balancegame\\Unity.VisualScripting.Flow.Editor.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.VisualScripting.Flow.Editor.csproj"
+              },
+              "D:\\balancegame\\Unity.VisualScripting.SettingsProvider.Editor.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.VisualScripting.SettingsProvider.Editor.csproj"
+              },
+              "D:\\balancegame\\Unity.VisualScripting.Shared.Editor.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.VisualScripting.Shared.Editor.csproj"
+              },
+              "D:\\balancegame\\Unity.VisualScripting.State.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.VisualScripting.State.csproj"
+              },
+              "D:\\balancegame\\Unity.VisualScripting.State.Editor.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.VisualScripting.State.Editor.csproj"
+              },
+              "D:\\balancegame\\Unity.VisualStudio.Editor.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.VisualStudio.Editor.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.312\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\balancegame\\PsdPlugin.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\balancegame\\PsdPlugin.csproj",
+        "projectName": "PsdPlugin",
+        "projectPath": "D:\\balancegame\\PsdPlugin.csproj",
+        "packagesPath": "C:\\Users\\woody\\.nuget\\packages\\",
+        "outputPath": "D:\\balancegame\\Temp\\obj\\PsdPlugin\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\woody\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\balancegame\\Unity.Burst.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.Burst.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.312\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\balancegame\\Unity.2D.Animation.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\balancegame\\Unity.2D.Animation.Editor.csproj",
+        "projectName": "Unity.2D.Animation.Editor",
+        "projectPath": "D:\\balancegame\\Unity.2D.Animation.Editor.csproj",
+        "packagesPath": "C:\\Users\\woody\\.nuget\\packages\\",
+        "outputPath": "D:\\balancegame\\Temp\\obj\\Unity.2D.Animation.Editor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\woody\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\balancegame\\Unity.2D.Animation.Runtime.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.2D.Animation.Runtime.csproj"
+              },
+              "D:\\balancegame\\Unity.2D.Common.Editor.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.2D.Common.Editor.csproj"
+              },
+              "D:\\balancegame\\Unity.2D.Common.Runtime.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.2D.Common.Runtime.csproj"
+              },
+              "D:\\balancegame\\Unity.Burst.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.Burst.csproj"
+              },
+              "D:\\balancegame\\Unity.Collections.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.Collections.csproj"
+              },
+              "D:\\balancegame\\Unity.InternalAPIEditorBridge.001.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.InternalAPIEditorBridge.001.csproj"
+              },
+              "D:\\balancegame\\Unity.InternalAPIEngineBridge.001.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.InternalAPIEngineBridge.001.csproj"
+              },
+              "D:\\balancegame\\Unity.Mathematics.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.Mathematics.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.312\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\balancegame\\Unity.2D.Animation.Runtime.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\balancegame\\Unity.2D.Animation.Runtime.csproj",
+        "projectName": "Unity.2D.Animation.Runtime",
+        "projectPath": "D:\\balancegame\\Unity.2D.Animation.Runtime.csproj",
+        "packagesPath": "C:\\Users\\woody\\.nuget\\packages\\",
+        "outputPath": "D:\\balancegame\\Temp\\obj\\Unity.2D.Animation.Runtime\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\woody\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\balancegame\\Unity.2D.Common.Runtime.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.2D.Common.Runtime.csproj"
+              },
+              "D:\\balancegame\\Unity.Burst.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.Burst.csproj"
+              },
+              "D:\\balancegame\\Unity.Collections.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.Collections.csproj"
+              },
+              "D:\\balancegame\\Unity.InternalAPIEngineBridge.001.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.InternalAPIEngineBridge.001.csproj"
+              },
+              "D:\\balancegame\\Unity.Mathematics.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.Mathematics.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.312\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\balancegame\\Unity.2D.Aseprite.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\balancegame\\Unity.2D.Aseprite.Common.csproj",
+        "projectName": "Unity.2D.Aseprite.Common",
+        "projectPath": "D:\\balancegame\\Unity.2D.Aseprite.Common.csproj",
+        "packagesPath": "C:\\Users\\woody\\.nuget\\packages\\",
+        "outputPath": "D:\\balancegame\\Temp\\obj\\Unity.2D.Aseprite.Common\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\woody\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\balancegame\\Unity.Burst.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.Burst.csproj"
+              },
+              "D:\\balancegame\\Unity.Mathematics.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.Mathematics.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.312\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\balancegame\\Unity.2D.Aseprite.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\balancegame\\Unity.2D.Aseprite.Editor.csproj",
+        "projectName": "Unity.2D.Aseprite.Editor",
+        "projectPath": "D:\\balancegame\\Unity.2D.Aseprite.Editor.csproj",
+        "packagesPath": "C:\\Users\\woody\\.nuget\\packages\\",
+        "outputPath": "D:\\balancegame\\Temp\\obj\\Unity.2D.Aseprite.Editor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\woody\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\balancegame\\Unity.2D.Aseprite.Common.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.2D.Aseprite.Common.csproj"
+              },
+              "D:\\balancegame\\Unity.Burst.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.Burst.csproj"
+              },
+              "D:\\balancegame\\Unity.InternalAPIEditorBridge.001.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.InternalAPIEditorBridge.001.csproj"
+              },
+              "D:\\balancegame\\Unity.Mathematics.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.Mathematics.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.312\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\balancegame\\Unity.2D.Common.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\balancegame\\Unity.2D.Common.Editor.csproj",
+        "projectName": "Unity.2D.Common.Editor",
+        "projectPath": "D:\\balancegame\\Unity.2D.Common.Editor.csproj",
+        "packagesPath": "C:\\Users\\woody\\.nuget\\packages\\",
+        "outputPath": "D:\\balancegame\\Temp\\obj\\Unity.2D.Common.Editor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\woody\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\balancegame\\Unity.2D.Common.Runtime.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.2D.Common.Runtime.csproj"
+              },
+              "D:\\balancegame\\Unity.Burst.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.Burst.csproj"
+              },
+              "D:\\balancegame\\Unity.Mathematics.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.Mathematics.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.312\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\balancegame\\Unity.2D.Common.Path.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\balancegame\\Unity.2D.Common.Path.Editor.csproj",
+        "projectName": "Unity.2D.Common.Path.Editor",
+        "projectPath": "D:\\balancegame\\Unity.2D.Common.Path.Editor.csproj",
+        "packagesPath": "C:\\Users\\woody\\.nuget\\packages\\",
+        "outputPath": "D:\\balancegame\\Temp\\obj\\Unity.2D.Common.Path.Editor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\woody\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.312\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\balancegame\\Unity.2D.Common.Runtime.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\balancegame\\Unity.2D.Common.Runtime.csproj",
+        "projectName": "Unity.2D.Common.Runtime",
+        "projectPath": "D:\\balancegame\\Unity.2D.Common.Runtime.csproj",
+        "packagesPath": "C:\\Users\\woody\\.nuget\\packages\\",
+        "outputPath": "D:\\balancegame\\Temp\\obj\\Unity.2D.Common.Runtime\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\woody\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\balancegame\\Unity.Mathematics.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.Mathematics.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.312\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\balancegame\\Unity.2D.IK.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\balancegame\\Unity.2D.IK.Editor.csproj",
+        "projectName": "Unity.2D.IK.Editor",
+        "projectPath": "D:\\balancegame\\Unity.2D.IK.Editor.csproj",
+        "packagesPath": "C:\\Users\\woody\\.nuget\\packages\\",
+        "outputPath": "D:\\balancegame\\Temp\\obj\\Unity.2D.IK.Editor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\woody\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\balancegame\\Unity.2D.Animation.Editor.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.2D.Animation.Editor.csproj"
+              },
+              "D:\\balancegame\\Unity.2D.Animation.Runtime.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.2D.Animation.Runtime.csproj"
+              },
+              "D:\\balancegame\\Unity.2D.Common.Editor.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.2D.Common.Editor.csproj"
+              },
+              "D:\\balancegame\\Unity.2D.Common.Runtime.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.2D.Common.Runtime.csproj"
+              },
+              "D:\\balancegame\\Unity.2D.IK.Runtime.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.2D.IK.Runtime.csproj"
+              },
+              "D:\\balancegame\\Unity.InternalAPIEditorBridge.001.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.InternalAPIEditorBridge.001.csproj"
+              },
+              "D:\\balancegame\\Unity.InternalAPIEngineBridge.001.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.InternalAPIEngineBridge.001.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.312\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\balancegame\\Unity.2D.IK.Runtime.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\balancegame\\Unity.2D.IK.Runtime.csproj",
+        "projectName": "Unity.2D.IK.Runtime",
+        "projectPath": "D:\\balancegame\\Unity.2D.IK.Runtime.csproj",
+        "packagesPath": "C:\\Users\\woody\\.nuget\\packages\\",
+        "outputPath": "D:\\balancegame\\Temp\\obj\\Unity.2D.IK.Runtime\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\woody\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\balancegame\\Unity.2D.Animation.Runtime.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.2D.Animation.Runtime.csproj"
+              },
+              "D:\\balancegame\\Unity.InternalAPIEngineBridge.001.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.InternalAPIEngineBridge.001.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.312\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\balancegame\\Unity.2D.Psdimporter.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\balancegame\\Unity.2D.Psdimporter.Editor.csproj",
+        "projectName": "Unity.2D.Psdimporter.Editor",
+        "projectPath": "D:\\balancegame\\Unity.2D.Psdimporter.Editor.csproj",
+        "packagesPath": "C:\\Users\\woody\\.nuget\\packages\\",
+        "outputPath": "D:\\balancegame\\Temp\\obj\\Unity.2D.Psdimporter.Editor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\woody\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\balancegame\\PsdPlugin.csproj": {
+                "projectPath": "D:\\balancegame\\PsdPlugin.csproj"
+              },
+              "D:\\balancegame\\Unity.2D.Animation.Editor.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.2D.Animation.Editor.csproj"
+              },
+              "D:\\balancegame\\Unity.2D.Animation.Runtime.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.2D.Animation.Runtime.csproj"
+              },
+              "D:\\balancegame\\Unity.2D.Common.Editor.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.2D.Common.Editor.csproj"
+              },
+              "D:\\balancegame\\Unity.Burst.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.Burst.csproj"
+              },
+              "D:\\balancegame\\Unity.InternalAPIEditorBridge.001.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.InternalAPIEditorBridge.001.csproj"
+              },
+              "D:\\balancegame\\Unity.InternalAPIEngineBridge.001.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.InternalAPIEngineBridge.001.csproj"
+              },
+              "D:\\balancegame\\Unity.Mathematics.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.Mathematics.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.312\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\balancegame\\Unity.2D.SpriteShape.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\balancegame\\Unity.2D.SpriteShape.Editor.csproj",
+        "projectName": "Unity.2D.SpriteShape.Editor",
+        "projectPath": "D:\\balancegame\\Unity.2D.SpriteShape.Editor.csproj",
+        "packagesPath": "C:\\Users\\woody\\.nuget\\packages\\",
+        "outputPath": "D:\\balancegame\\Temp\\obj\\Unity.2D.SpriteShape.Editor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\woody\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\balancegame\\Unity.2D.Common.Editor.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.2D.Common.Editor.csproj"
+              },
+              "D:\\balancegame\\Unity.2D.Common.Path.Editor.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.2D.Common.Path.Editor.csproj"
+              },
+              "D:\\balancegame\\Unity.2D.Common.Runtime.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.2D.Common.Runtime.csproj"
+              },
+              "D:\\balancegame\\Unity.2D.SpriteShape.Runtime.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.2D.SpriteShape.Runtime.csproj"
+              },
+              "D:\\balancegame\\Unity.InternalAPIEditorBridge.001.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.InternalAPIEditorBridge.001.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.312\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\balancegame\\Unity.2D.SpriteShape.Runtime.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\balancegame\\Unity.2D.SpriteShape.Runtime.csproj",
+        "projectName": "Unity.2D.SpriteShape.Runtime",
+        "projectPath": "D:\\balancegame\\Unity.2D.SpriteShape.Runtime.csproj",
+        "packagesPath": "C:\\Users\\woody\\.nuget\\packages\\",
+        "outputPath": "D:\\balancegame\\Temp\\obj\\Unity.2D.SpriteShape.Runtime\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\woody\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\balancegame\\Unity.2D.Common.Runtime.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.2D.Common.Runtime.csproj"
+              },
+              "D:\\balancegame\\Unity.Burst.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.Burst.csproj"
+              },
+              "D:\\balancegame\\Unity.InternalAPIEngineBridge.001.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.InternalAPIEngineBridge.001.csproj"
+              },
+              "D:\\balancegame\\Unity.Mathematics.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.Mathematics.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.312\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\balancegame\\Unity.2D.Tilemap.Extras.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\balancegame\\Unity.2D.Tilemap.Extras.csproj",
+        "projectName": "Unity.2D.Tilemap.Extras",
+        "projectPath": "D:\\balancegame\\Unity.2D.Tilemap.Extras.csproj",
+        "packagesPath": "C:\\Users\\woody\\.nuget\\packages\\",
+        "outputPath": "D:\\balancegame\\Temp\\obj\\Unity.2D.Tilemap.Extras\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\woody\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.312\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\balancegame\\Unity.2D.Tilemap.Extras.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\balancegame\\Unity.2D.Tilemap.Extras.Editor.csproj",
+        "projectName": "Unity.2D.Tilemap.Extras.Editor",
+        "projectPath": "D:\\balancegame\\Unity.2D.Tilemap.Extras.Editor.csproj",
+        "packagesPath": "C:\\Users\\woody\\.nuget\\packages\\",
+        "outputPath": "D:\\balancegame\\Temp\\obj\\Unity.2D.Tilemap.Extras.Editor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\woody\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\balancegame\\Unity.2D.Tilemap.Extras.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.2D.Tilemap.Extras.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.312\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\balancegame\\Unity.Burst.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\balancegame\\Unity.Burst.csproj",
+        "projectName": "Unity.Burst",
+        "projectPath": "D:\\balancegame\\Unity.Burst.csproj",
+        "packagesPath": "C:\\Users\\woody\\.nuget\\packages\\",
+        "outputPath": "D:\\balancegame\\Temp\\obj\\Unity.Burst\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\woody\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.312\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\balancegame\\Unity.Burst.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\balancegame\\Unity.Burst.Editor.csproj",
+        "projectName": "Unity.Burst.Editor",
+        "projectPath": "D:\\balancegame\\Unity.Burst.Editor.csproj",
+        "packagesPath": "C:\\Users\\woody\\.nuget\\packages\\",
+        "outputPath": "D:\\balancegame\\Temp\\obj\\Unity.Burst.Editor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\woody\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\balancegame\\Unity.Burst.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.Burst.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.312\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\balancegame\\Unity.Collections.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\balancegame\\Unity.Collections.csproj",
+        "projectName": "Unity.Collections",
+        "projectPath": "D:\\balancegame\\Unity.Collections.csproj",
+        "packagesPath": "C:\\Users\\woody\\.nuget\\packages\\",
+        "outputPath": "D:\\balancegame\\Temp\\obj\\Unity.Collections\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\woody\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\balancegame\\Unity.Burst.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.Burst.csproj"
+              },
+              "D:\\balancegame\\Unity.Mathematics.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.Mathematics.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.312\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\balancegame\\Unity.Collections.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\balancegame\\Unity.Collections.Editor.csproj",
+        "projectName": "Unity.Collections.Editor",
+        "projectPath": "D:\\balancegame\\Unity.Collections.Editor.csproj",
+        "packagesPath": "C:\\Users\\woody\\.nuget\\packages\\",
+        "outputPath": "D:\\balancegame\\Temp\\obj\\Unity.Collections.Editor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\woody\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\balancegame\\Unity.Collections.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.Collections.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.312\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\balancegame\\Unity.InputSystem.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\balancegame\\Unity.InputSystem.csproj",
+        "projectName": "Unity.InputSystem",
+        "projectPath": "D:\\balancegame\\Unity.InputSystem.csproj",
+        "packagesPath": "C:\\Users\\woody\\.nuget\\packages\\",
+        "outputPath": "D:\\balancegame\\Temp\\obj\\Unity.InputSystem\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\woody\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.312\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\balancegame\\Unity.InputSystem.ForUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\balancegame\\Unity.InputSystem.ForUI.csproj",
+        "projectName": "Unity.InputSystem.ForUI",
+        "projectPath": "D:\\balancegame\\Unity.InputSystem.ForUI.csproj",
+        "packagesPath": "C:\\Users\\woody\\.nuget\\packages\\",
+        "outputPath": "D:\\balancegame\\Temp\\obj\\Unity.InputSystem.ForUI\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\woody\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\balancegame\\Unity.InputSystem.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.InputSystem.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.312\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\balancegame\\Unity.InternalAPIEditorBridge.001.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\balancegame\\Unity.InternalAPIEditorBridge.001.csproj",
+        "projectName": "Unity.InternalAPIEditorBridge.001",
+        "projectPath": "D:\\balancegame\\Unity.InternalAPIEditorBridge.001.csproj",
+        "packagesPath": "C:\\Users\\woody\\.nuget\\packages\\",
+        "outputPath": "D:\\balancegame\\Temp\\obj\\Unity.InternalAPIEditorBridge.001\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\woody\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.312\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\balancegame\\Unity.InternalAPIEngineBridge.001.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\balancegame\\Unity.InternalAPIEngineBridge.001.csproj",
+        "projectName": "Unity.InternalAPIEngineBridge.001",
+        "projectPath": "D:\\balancegame\\Unity.InternalAPIEngineBridge.001.csproj",
+        "packagesPath": "C:\\Users\\woody\\.nuget\\packages\\",
+        "outputPath": "D:\\balancegame\\Temp\\obj\\Unity.InternalAPIEngineBridge.001\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\woody\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.312\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\balancegame\\Unity.Mathematics.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\balancegame\\Unity.Mathematics.csproj",
+        "projectName": "Unity.Mathematics",
+        "projectPath": "D:\\balancegame\\Unity.Mathematics.csproj",
+        "packagesPath": "C:\\Users\\woody\\.nuget\\packages\\",
+        "outputPath": "D:\\balancegame\\Temp\\obj\\Unity.Mathematics\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\woody\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.312\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\balancegame\\Unity.Mathematics.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\balancegame\\Unity.Mathematics.Editor.csproj",
+        "projectName": "Unity.Mathematics.Editor",
+        "projectPath": "D:\\balancegame\\Unity.Mathematics.Editor.csproj",
+        "packagesPath": "C:\\Users\\woody\\.nuget\\packages\\",
+        "outputPath": "D:\\balancegame\\Temp\\obj\\Unity.Mathematics.Editor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\woody\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\balancegame\\Unity.Mathematics.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.Mathematics.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.312\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\balancegame\\Unity.Mobile.AndroidLogcat.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\balancegame\\Unity.Mobile.AndroidLogcat.Editor.csproj",
+        "projectName": "Unity.Mobile.AndroidLogcat.Editor",
+        "projectPath": "D:\\balancegame\\Unity.Mobile.AndroidLogcat.Editor.csproj",
+        "packagesPath": "C:\\Users\\woody\\.nuget\\packages\\",
+        "outputPath": "D:\\balancegame\\Temp\\obj\\Unity.Mobile.AndroidLogcat.Editor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\woody\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.312\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\balancegame\\Unity.PlasticSCM.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\balancegame\\Unity.PlasticSCM.Editor.csproj",
+        "projectName": "Unity.PlasticSCM.Editor",
+        "projectPath": "D:\\balancegame\\Unity.PlasticSCM.Editor.csproj",
+        "packagesPath": "C:\\Users\\woody\\.nuget\\packages\\",
+        "outputPath": "D:\\balancegame\\Temp\\obj\\Unity.PlasticSCM.Editor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\woody\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.312\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\balancegame\\Unity.Rider.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\balancegame\\Unity.Rider.Editor.csproj",
+        "projectName": "Unity.Rider.Editor",
+        "projectPath": "D:\\balancegame\\Unity.Rider.Editor.csproj",
+        "packagesPath": "C:\\Users\\woody\\.nuget\\packages\\",
+        "outputPath": "D:\\balancegame\\Temp\\obj\\Unity.Rider.Editor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\woody\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.312\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\balancegame\\Unity.Searcher.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\balancegame\\Unity.Searcher.Editor.csproj",
+        "projectName": "Unity.Searcher.Editor",
+        "projectPath": "D:\\balancegame\\Unity.Searcher.Editor.csproj",
+        "packagesPath": "C:\\Users\\woody\\.nuget\\packages\\",
+        "outputPath": "D:\\balancegame\\Temp\\obj\\Unity.Searcher.Editor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\woody\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.312\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\balancegame\\Unity.Timeline.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\balancegame\\Unity.Timeline.csproj",
+        "projectName": "Unity.Timeline",
+        "projectPath": "D:\\balancegame\\Unity.Timeline.csproj",
+        "packagesPath": "C:\\Users\\woody\\.nuget\\packages\\",
+        "outputPath": "D:\\balancegame\\Temp\\obj\\Unity.Timeline\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\woody\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.312\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\balancegame\\Unity.Timeline.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\balancegame\\Unity.Timeline.Editor.csproj",
+        "projectName": "Unity.Timeline.Editor",
+        "projectPath": "D:\\balancegame\\Unity.Timeline.Editor.csproj",
+        "packagesPath": "C:\\Users\\woody\\.nuget\\packages\\",
+        "outputPath": "D:\\balancegame\\Temp\\obj\\Unity.Timeline.Editor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\woody\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\balancegame\\Unity.Timeline.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.Timeline.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.312\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\balancegame\\Unity.VisualScripting.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\balancegame\\Unity.VisualScripting.Core.csproj",
+        "projectName": "Unity.VisualScripting.Core",
+        "projectPath": "D:\\balancegame\\Unity.VisualScripting.Core.csproj",
+        "packagesPath": "C:\\Users\\woody\\.nuget\\packages\\",
+        "outputPath": "D:\\balancegame\\Temp\\obj\\Unity.VisualScripting.Core\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\woody\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\balancegame\\Unity.InputSystem.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.InputSystem.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.312\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\balancegame\\Unity.VisualScripting.Core.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\balancegame\\Unity.VisualScripting.Core.Editor.csproj",
+        "projectName": "Unity.VisualScripting.Core.Editor",
+        "projectPath": "D:\\balancegame\\Unity.VisualScripting.Core.Editor.csproj",
+        "packagesPath": "C:\\Users\\woody\\.nuget\\packages\\",
+        "outputPath": "D:\\balancegame\\Temp\\obj\\Unity.VisualScripting.Core.Editor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\woody\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\balancegame\\Unity.VisualScripting.Core.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.VisualScripting.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.312\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\balancegame\\Unity.VisualScripting.Flow.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\balancegame\\Unity.VisualScripting.Flow.csproj",
+        "projectName": "Unity.VisualScripting.Flow",
+        "projectPath": "D:\\balancegame\\Unity.VisualScripting.Flow.csproj",
+        "packagesPath": "C:\\Users\\woody\\.nuget\\packages\\",
+        "outputPath": "D:\\balancegame\\Temp\\obj\\Unity.VisualScripting.Flow\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\woody\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\balancegame\\Unity.InputSystem.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.InputSystem.csproj"
+              },
+              "D:\\balancegame\\Unity.VisualScripting.Core.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.VisualScripting.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.312\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\balancegame\\Unity.VisualScripting.Flow.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\balancegame\\Unity.VisualScripting.Flow.Editor.csproj",
+        "projectName": "Unity.VisualScripting.Flow.Editor",
+        "projectPath": "D:\\balancegame\\Unity.VisualScripting.Flow.Editor.csproj",
+        "packagesPath": "C:\\Users\\woody\\.nuget\\packages\\",
+        "outputPath": "D:\\balancegame\\Temp\\obj\\Unity.VisualScripting.Flow.Editor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\woody\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\balancegame\\Unity.InputSystem.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.InputSystem.csproj"
+              },
+              "D:\\balancegame\\Unity.VisualScripting.Core.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.VisualScripting.Core.csproj"
+              },
+              "D:\\balancegame\\Unity.VisualScripting.Core.Editor.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.VisualScripting.Core.Editor.csproj"
+              },
+              "D:\\balancegame\\Unity.VisualScripting.Flow.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.VisualScripting.Flow.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.312\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\balancegame\\Unity.VisualScripting.SettingsProvider.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\balancegame\\Unity.VisualScripting.SettingsProvider.Editor.csproj",
+        "projectName": "Unity.VisualScripting.SettingsProvider.Editor",
+        "projectPath": "D:\\balancegame\\Unity.VisualScripting.SettingsProvider.Editor.csproj",
+        "packagesPath": "C:\\Users\\woody\\.nuget\\packages\\",
+        "outputPath": "D:\\balancegame\\Temp\\obj\\Unity.VisualScripting.SettingsProvider.Editor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\woody\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\balancegame\\Unity.VisualScripting.Core.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.VisualScripting.Core.csproj"
+              },
+              "D:\\balancegame\\Unity.VisualScripting.Core.Editor.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.VisualScripting.Core.Editor.csproj"
+              },
+              "D:\\balancegame\\Unity.VisualScripting.Flow.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.VisualScripting.Flow.csproj"
+              },
+              "D:\\balancegame\\Unity.VisualScripting.Flow.Editor.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.VisualScripting.Flow.Editor.csproj"
+              },
+              "D:\\balancegame\\Unity.VisualScripting.State.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.VisualScripting.State.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.312\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\balancegame\\Unity.VisualScripting.Shared.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\balancegame\\Unity.VisualScripting.Shared.Editor.csproj",
+        "projectName": "Unity.VisualScripting.Shared.Editor",
+        "projectPath": "D:\\balancegame\\Unity.VisualScripting.Shared.Editor.csproj",
+        "packagesPath": "C:\\Users\\woody\\.nuget\\packages\\",
+        "outputPath": "D:\\balancegame\\Temp\\obj\\Unity.VisualScripting.Shared.Editor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\woody\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\balancegame\\Unity.VisualScripting.Core.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.VisualScripting.Core.csproj"
+              },
+              "D:\\balancegame\\Unity.VisualScripting.Core.Editor.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.VisualScripting.Core.Editor.csproj"
+              },
+              "D:\\balancegame\\Unity.VisualScripting.Flow.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.VisualScripting.Flow.csproj"
+              },
+              "D:\\balancegame\\Unity.VisualScripting.Flow.Editor.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.VisualScripting.Flow.Editor.csproj"
+              },
+              "D:\\balancegame\\Unity.VisualScripting.State.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.VisualScripting.State.csproj"
+              },
+              "D:\\balancegame\\Unity.VisualScripting.State.Editor.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.VisualScripting.State.Editor.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.312\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\balancegame\\Unity.VisualScripting.State.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\balancegame\\Unity.VisualScripting.State.csproj",
+        "projectName": "Unity.VisualScripting.State",
+        "projectPath": "D:\\balancegame\\Unity.VisualScripting.State.csproj",
+        "packagesPath": "C:\\Users\\woody\\.nuget\\packages\\",
+        "outputPath": "D:\\balancegame\\Temp\\obj\\Unity.VisualScripting.State\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\woody\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\balancegame\\Unity.VisualScripting.Core.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.VisualScripting.Core.csproj"
+              },
+              "D:\\balancegame\\Unity.VisualScripting.Flow.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.VisualScripting.Flow.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.312\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\balancegame\\Unity.VisualScripting.State.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\balancegame\\Unity.VisualScripting.State.Editor.csproj",
+        "projectName": "Unity.VisualScripting.State.Editor",
+        "projectPath": "D:\\balancegame\\Unity.VisualScripting.State.Editor.csproj",
+        "packagesPath": "C:\\Users\\woody\\.nuget\\packages\\",
+        "outputPath": "D:\\balancegame\\Temp\\obj\\Unity.VisualScripting.State.Editor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\woody\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "D:\\balancegame\\Unity.VisualScripting.Core.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.VisualScripting.Core.csproj"
+              },
+              "D:\\balancegame\\Unity.VisualScripting.Core.Editor.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.VisualScripting.Core.Editor.csproj"
+              },
+              "D:\\balancegame\\Unity.VisualScripting.Flow.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.VisualScripting.Flow.csproj"
+              },
+              "D:\\balancegame\\Unity.VisualScripting.Flow.Editor.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.VisualScripting.Flow.Editor.csproj"
+              },
+              "D:\\balancegame\\Unity.VisualScripting.State.csproj": {
+                "projectPath": "D:\\balancegame\\Unity.VisualScripting.State.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.312\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\balancegame\\Unity.VisualStudio.Editor.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\balancegame\\Unity.VisualStudio.Editor.csproj",
+        "projectName": "Unity.VisualStudio.Editor",
+        "projectPath": "D:\\balancegame\\Unity.VisualStudio.Editor.csproj",
+        "packagesPath": "C:\\Users\\woody\\.nuget\\packages\\",
+        "outputPath": "D:\\balancegame\\Temp\\obj\\Unity.VisualStudio.Editor\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\woody\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.312\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

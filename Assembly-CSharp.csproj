@@ -50,29 +50,16 @@
   <ItemGroup>
     <Compile Include="Assets\1Main\Scripts\UI\TopicCardUI.cs" />
     <Compile Include="Assets\1Main\Scripts\Manager\TopicManager.cs" />
-    <Compile Include="Assets\GoogleSignIn\Impl\BaseObject.cs" />
+    <Compile Include="Assets\1Main\Scripts\IntroLogo.cs" />
     <Compile Include="Assets\1Main\Scripts\Manager\UIManager.cs" />
+    <Compile Include="Assets\1Main\Scripts\StartManager.cs" />
     <Compile Include="Assets\1Main\Scripts\GameSceneManager.cs" />
-    <Compile Include="Assets\GoogleSignIn\GoogleSignInStatusCode.cs" />
-    <Compile Include="Assets\GoogleSignIn\GoogleSignInUser.cs" />
-    <Compile Include="Assets\GoogleSignIn\GoogleSignInConfiguration.cs" />
     <Compile Include="Assets\1Main\Scripts\Data\TopicData.cs" />
-    <Compile Include="Assets\1Main\Scripts\SafeAreaHandler.cs" />
-    <Compile Include="Assets\1Main\Scripts\GameInitializer.cs" />
-    <Compile Include="Assets\1Main\Scripts\Manager\GoogleSignInDemo.cs" />
+    <Compile Include="Assets\1Main\Scripts\CameraScaler.cs" />
+    <Compile Include="Assets\1Main\Scripts\SafeArea.cs" />
     <Compile Include="Assets\1Main\Scripts\UI\LoadingScreen.cs" />
-    <Compile Include="Assets\GoogleSignIn\Future.cs" />
-    <Compile Include="Assets\1Main\Scripts\SceneLoader.cs" />
-    <Compile Include="Assets\GoogleSignIn\Impl\GoogleSignInImpl.cs" />
-    <Compile Include="Assets\GoogleSignIn\GoogleSignIn.cs" />
     <Compile Include="Assets\1Main\Scripts\BalanceIconAnimator.cs" />
-    <Compile Include="Assets\1Main\Scripts\UIObjectPoolingManager.cs" />
     <Compile Include="Assets\1Main\Scripts\Manager\FirebaseManager.cs" />
-    <Compile Include="Assets\GoogleSignIn\Impl\NativeFuture.cs" />
-    <Compile Include="Assets\1Main\Scripts\UI_LoadingScreen.cs" />
-    <Compile Include="Assets\1Main\Scripts\StartUIManager.cs" />
-    <Compile Include="Assets\GoogleSignIn\Impl\SignInHelperObject.cs" />
-    <Compile Include="Assets\1Main\Scripts\StartSceneController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -112,6 +99,7 @@
     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\Firebase\Plugins\iOS\Firebase.App.dll" />
+    <None Include="Assets\1Main\Material\ic_launcher\res\mipmap-anydpi-v26\ic_launcher.xml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
   </ItemGroup>
   <ItemGroup>
@@ -1262,6 +1250,7 @@
     <ProjectReference Include="Unity.2D.Aseprite.Editor.csproj" />
     <ProjectReference Include="Unity.2D.Psdimporter.Editor.csproj" />
     <ProjectReference Include="Unity.VisualScripting.Flow.csproj" />
+    <ProjectReference Include="Unity.Mobile.AndroidLogcat.Editor.csproj" />
     <ProjectReference Include="Unity.2D.Tilemap.Extras.Editor.csproj" />
     <ProjectReference Include="Unity.2D.Tilemap.Extras.csproj" />
     <ProjectReference Include="Unity.VisualScripting.Flow.Editor.csproj" />
