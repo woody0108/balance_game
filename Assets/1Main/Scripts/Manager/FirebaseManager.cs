@@ -3,7 +3,8 @@ using System.Threading.Tasks;
 using UnityEngine;
 using Firebase;
 using Firebase.Firestore;
-using Firebase.Extensions;
+
+
 
 /// <summary>
 /// Firebase Firestore 전담 매니저 (완성본)
@@ -35,10 +36,17 @@ public class FirebaseManager : MonoBehaviour
     #endregion
 
     #region Properties
+    public enum FirebaseInitState
+    {
+        None,
+        Initializing,
+        Success,
+        Failed
+    }
+    public FirebaseInitState InitState { get; private set; } = FirebaseInitState.None;
+    public bool IsReady => InitState == FirebaseInitState.Success;
     private FirebaseFirestore db;
-    private bool isInitialized = false;
 
-    public bool IsReady => isInitialized && db != null;
     #endregion
 
     #region Events
@@ -52,22 +60,15 @@ public class FirebaseManager : MonoBehaviour
         // 싱글톤 중복 방지
         if (_instance != null && _instance != this)
         {
-            Debug.LogWarning("[FirebaseManager] 중복 인스턴스 파괴!");
             Destroy(gameObject);
             return;
         }
-
         _instance = this;
         DontDestroyOnLoad(gameObject);
 
-        Debug.Log("[FirebaseManager] ✅ 생성 완료 (DontDestroyOnLoad)");
     }
 
-    private async void Start()
-    {
-        // 자동 초기화
-        await InitializeAsync();
-    }
+
 
     private void OnDestroy()
     {
@@ -86,44 +87,38 @@ public class FirebaseManager : MonoBehaviour
     /// </summary>
     public async Task<bool> InitializeAsync()
     {
-        if (isInitialized)
-        {
-            Debug.Log("[FirebaseManager] 이미 초기화됨");
-            return true;
-        }
+        if (InitState == FirebaseInitState.Initializing) return false;
+        if (InitState == FirebaseInitState.Success) return true;
 
-        Debug.Log("[FirebaseManager] 🔄 Firebase 초기화 시작...");
+        InitState = FirebaseInitState.Initializing;
 
         try
         {
-            // Firebase 종속성 체크
             var dependencyStatus = await FirebaseApp.CheckAndFixDependenciesAsync();
 
             if (dependencyStatus == DependencyStatus.Available)
             {
-                // Firestore 인스턴스 가져오기
                 db = FirebaseFirestore.DefaultInstance;
-                isInitialized = true;
+                InitState = FirebaseInitState.Success;
 
-                Debug.Log("[FirebaseManager] ✅✅✅ Firebase 초기화 성공!");
-                Debug.Log($"[FirebaseManager] Firestore DB: {db != null}");
-
+                Debug.Log("[FirebaseManager] Firebase 초기화 성공");
                 OnInitialized?.Invoke();
                 return true;
             }
             else
             {
-                string error = $"Firebase 종속성 오류: {dependencyStatus}";
-                Debug.LogError($"[FirebaseManager] ❌ {error}");
-                OnError?.Invoke(error);
+                string err = $"Firebase 종속성 오류: {dependencyStatus}";
+                InitState = FirebaseInitState.Failed;
+                Debug.LogError(err);
+                OnError?.Invoke(err);
                 return false;
             }
         }
         catch (Exception e)
         {
-            Debug.LogError($"[FirebaseManager] ❌ 초기화 예외: {e.Message}");
-            Debug.LogError($"[FirebaseManager] Stack Trace: {e.StackTrace}");
+            InitState = FirebaseInitState.Failed;
             OnError?.Invoke(e.Message);
+            Debug.LogError(e);
             return false;
         }
     }
@@ -332,22 +327,6 @@ public class FirebaseManager : MonoBehaviour
     #endregion
 
     #region Debug Menu
-    /// <summary>
-    /// Inspector에서 우클릭 → Print Firebase Status로 확인 가능
-    /// </summary>
-    [ContextMenu("Print Firebase Status")]
-    public void PrintStatus()
-    {
-        Debug.Log("==================== Firebase Status ====================");
-        Debug.Log($"Initialized: {isInitialized}");
-        Debug.Log($"DB is null: {db == null}");
-        Debug.Log($"IsReady: {IsReady}");
-        Debug.Log($"GameObject: {gameObject.name}");
-        Debug.Log($"Scene: {gameObject.scene.name}");
-        Debug.Log("========================================================");
-    }
-
-    /// <summary>
     /// 테스트용: Main/Main-1 문서 읽기
     /// Inspector에서 컴포넌트 우클릭 → Test: Load Main-1 Document
     /// </summary>

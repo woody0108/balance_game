@@ -3,6 +3,18 @@ using UnityEngine.UI;
 using TMPro;
 using System.Collections;
 
+/// <summary>
+/// 기존 LoadingScreen에 최소 변경을 적용:
+/// - Show(LoadingType) 추가 (로딩 텍스트 자동 설정)
+/// - SetProgress(progress, type) 오버로드 추가 (type은 현재 표시용)
+/// - 기존 Show()/Hide()/SetProgress(float)와 호환 유지
+/// </summary>
+public enum LoadingType
+{
+    StartLogin,    // 앱 시작시 Firebase 초기화 대기
+    SceneLoading   // 씬 전환용 로딩
+}
+
 public class LoadingScreen : MonoBehaviour
 {
     public static LoadingScreen Instance { get; private set; }
@@ -18,7 +30,7 @@ public class LoadingScreen : MonoBehaviour
     [Header("Settings")]
     [SerializeField] private float fadeSpeed = 0.5f;
     [SerializeField] private float tipChangeInterval = 4f;
-    [SerializeField] private bool useRealtimeForTips = false; // 일시정지(Time.timeScale=0) 상태에서도 팁을 돌릴지
+    [SerializeField] private bool useRealtimeForTips = false;
 
     private string[] loadingTips = new string[]
     {
@@ -33,11 +45,12 @@ public class LoadingScreen : MonoBehaviour
     private Coroutine tipCoroutine;
     private bool isShowing = false;
 
-    #region Initialization
+    // 외부에서 빠르게 접근 가능하도록 public으로(원하면 프로퍼티로 변경)
+    public TextMeshProUGUI LoadingText => loadingText;
+    public TextMeshProUGUI TipText => tipText;
 
     private void Awake()
     {
-        // 싱글톤 안전 처리
         if (Instance == null)
         {
             Instance = this;
@@ -45,12 +58,10 @@ public class LoadingScreen : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning("[LoadingScreen] Duplicate instance destroyed");
             Destroy(gameObject);
             return;
         }
 
-        // 자동 레퍼런스 보정 (Inspector 비어있을 때 대비)
         AutoAssignIfNull();
 
         if (canvasGroup != null)
@@ -78,74 +89,78 @@ public class LoadingScreen : MonoBehaviour
             }
         }
 
+        // loadingText는 첫번째 TMP로 잡지만 inspector에서 명확히 지정하는 것을 권장
         if (loadingText == null) loadingText = GetComponentInChildren<TextMeshProUGUI>();
-        if (tipText == null)
-        {
-            // tipText는 필수는 아니므로 로그만 남김
-            tipText = GetComponentInChildren<TextMeshProUGUI>(true);
-        }
+        if (tipText == null) tipText = GetComponentInChildren<TextMeshProUGUI>(true);
+
         if (loadingDots == null || loadingDots.Length == 0)
         {
-            // 시도: 이름이 "LoadingDot"인 것 찾아서 배열로 구성
             var dots = GetComponentsInChildren<Image>(true);
             if (dots != null && dots.Length > 0)
             {
-                // 임시: dots 중 색이나 이름으로 필터링 가능. 여기선 전체 중 일부만 사용하지 않음.
                 loadingDots = dots;
             }
         }
     }
 
-    #endregion
+    #region Show/Hide / Text API
 
-    #region Public Methods
-
+    // 기존 Show 유지 (기본 동작)
     public void Show()
+    {
+        ShowInternal();
+    }
+
+    // 새로운 Show(LoadingType) — 텍스트를 타입에 맞게 변경 후 표시
+    public void Show(LoadingType type)
+    {
+        // 타입에 따른 기본 메시지 설정
+        if (loadingText != null)
+        {
+            switch (type)
+            {
+                case LoadingType.StartLogin:
+                    loadingText.text = "로그인중...";
+                    break;
+                case LoadingType.SceneLoading:
+                    loadingText.text = "로딩 중...";
+                    break;
+                default:
+                    loadingText.text = "로딩 중...";
+                    break;
+            }
+        }
+
+        ShowInternal();
+    }
+
+    private void ShowInternal()
     {
         if (isShowing) return;
 
-        Debug.Log("[LoadingScreen] Show called");
-        AutoAssignIfNull(); // 다시 체크
+        AutoAssignIfNull();
 
         gameObject.SetActive(true);
         isShowing = true;
 
-        // 페이드 인
         StopCoroutineIfRunning(ref animationCoroutine);
         StopCoroutineIfRunning(ref tipCoroutine);
 
         StartCoroutine(FadeIn());
 
-        if (balanceIcon != null)
-        {
-            balanceIcon.Play();
-        }
-        else
-        {
-            Debug.Log("[LoadingScreen] balanceIcon is null");
-        }
+        if (balanceIcon != null) balanceIcon.Play();
 
-        // 애니메이션 시작 (점)
         animationCoroutine = StartCoroutine(AnimateLoading());
-
-        // 팁 변경 시작
         tipCoroutine = StartCoroutine(ChangeTipsRoutine());
-
-        Debug.Log("[LoadingScreen] Coroutines started -> animation: " + (animationCoroutine != null) + " tip: " + (tipCoroutine != null));
     }
 
     public void Hide()
     {
         if (!isShowing) return;
 
-        Debug.Log("[LoadingScreen] Hide called");
-
         isShowing = false;
 
-        if (balanceIcon != null)
-        {
-            balanceIcon.Stop();
-        }
+        if (balanceIcon != null) balanceIcon.Stop();
 
         StopCoroutineIfRunning(ref animationCoroutine);
         StopCoroutineIfRunning(ref tipCoroutine);
@@ -153,6 +168,7 @@ public class LoadingScreen : MonoBehaviour
         StartCoroutine(FadeOut());
     }
 
+    // 기존 SetProgress 유지
     public void SetProgress(float progress)
     {
         if (progressBarFill != null)
@@ -165,24 +181,33 @@ public class LoadingScreen : MonoBehaviour
         }
     }
 
+    // 오버로드: type 전달받아 필요하면 다른 문구를 보여줄 수 있게 함 (현재 동일 동작)
+    public void SetProgress(float progress, LoadingType type)
+    {
+        // 예: SceneLoading에서는 퍼센트, StartLogin에서는 퍼센트 + 텍스트 유지
+        SetProgress(progress);
+    }
+
+    // 직접 텍스트 설정용 유틸
+    public void SetLoadingText(string text)
+    {
+        if (loadingText != null) loadingText.text = text;
+    }
 
     #endregion
 
-    #region Fade In/Out
+    #region Fade / Animations
 
     private IEnumerator FadeIn()
     {
-        if (canvasGroup == null)
-        {
-            yield break;
-        }
+        if (canvasGroup == null) yield break;
 
         canvasGroup.blocksRaycasts = true;
         float elapsed = 0f;
 
         while (elapsed < fadeSpeed)
         {
-            if (canvasGroup == null) yield break; // 안전 체크
+            if (canvasGroup == null) yield break;
             elapsed += Time.deltaTime;
             canvasGroup.alpha = Mathf.Lerp(0, 1, elapsed / fadeSpeed);
             yield return null;
@@ -193,10 +218,7 @@ public class LoadingScreen : MonoBehaviour
 
     private IEnumerator FadeOut()
     {
-        if (canvasGroup == null)
-        {
-            yield break;
-        }
+        if (canvasGroup == null) yield break;
 
         canvasGroup.blocksRaycasts = false;
         float elapsed = 0f;
@@ -213,20 +235,14 @@ public class LoadingScreen : MonoBehaviour
         gameObject.SetActive(false);
     }
 
-    #endregion
-
-    #region Animations
-
     private IEnumerator AnimateLoading()
     {
-        Debug.Log("[LoadingScreen] AnimateLoading started");
         float time = 0f;
 
         while (isShowing)
         {
             time += Time.deltaTime;
 
-            // 안전: dots가 없으면 그냥 대기
             if (loadingDots != null && loadingDots.Length > 0)
             {
                 for (int i = 0; i < loadingDots.Length; i++)
@@ -247,23 +263,19 @@ public class LoadingScreen : MonoBehaviour
 
             yield return null;
         }
-
-        Debug.Log("[LoadingScreen] AnimateLoading ended");
     }
 
     private IEnumerator ChangeTipsRoutine()
     {
-        Debug.Log("[LoadingScreen] ChangeTipsRoutine started - tipText null? " + (tipText == null));
         int currentIndex = 0;
 
         while (isShowing)
         {
-            // 안전: tipText가 없으면 단순히 대기만 하되, 루프는 계속 돈다.
-            if (tipText != null)
+            if (tipText != null && loadingTips.Length > 0)
             {
                 tipText.text = loadingTips[currentIndex];
                 yield return StartCoroutine(FadeTipText(0, 1, 0.5f));
-                // WaitForSeconds vs WaitForSecondsRealtime
+
                 if (useRealtimeForTips)
                     yield return new WaitForSecondsRealtime(Mathf.Max(0.1f, tipChangeInterval - 1f));
                 else
@@ -273,18 +285,16 @@ public class LoadingScreen : MonoBehaviour
             }
             else
             {
-                // tipText가 없으면 로그 후 그냥 대기
-                Debug.Log("[LoadingScreen] tipText is null - skipping tip update");
+                // tipText가 없으면 대기만 함
                 if (useRealtimeForTips)
                     yield return new WaitForSecondsRealtime(tipChangeInterval);
                 else
                     yield return new WaitForSeconds(tipChangeInterval);
             }
 
+            // 기본은 순환. 원하면 random으로 바꾸려면 여기서 변경 가능.
             currentIndex = (currentIndex + 1) % loadingTips.Length;
         }
-
-        Debug.Log("[LoadingScreen] ChangeTipsRoutine ended");
     }
 
     private IEnumerator FadeTipText(float from, float to, float duration)

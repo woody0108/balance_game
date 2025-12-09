@@ -75,20 +75,20 @@ public class TopicManager : MonoBehaviour
         Log("✅ TopicManager 생성 완료 (DontDestroyOnLoad)");
     }
 
-    private void Start()
-    {
-        Log("TOPICMANAGER START ");
-        // Firebase 초기화 대기
-        if (FirebaseManager.Instance.IsReady)
-        {
-            LoadTopicAsync();
-        }
-        else
-        {
-            Log("FirebaseManagerNotReady");
-            FirebaseManager.Instance.OnInitialized += LoadTopicAsync;
-        }
-    }
+    // private void Start()
+    // {
+    //     Log("TOPICMANAGER START ");
+    //     // Firebase 초기화 대기
+    //     if (FirebaseManager.Instance.IsReady)
+    //     {
+    //         LoadTopicAsync();
+    //     }
+    //     else
+    //     {
+    //         Log("FirebaseManagerNotReady");
+    //         FirebaseManager.Instance.OnInitialized += LoadTopicAsync;
+    //     }
+    // }
 
     private void OnDestroy()
     {

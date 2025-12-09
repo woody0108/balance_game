@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System.Collections;
+using System.Threading.Tasks;
 
 /// <summary>
 /// StartScene UI 관리자
@@ -14,7 +15,7 @@ public class StartManager : MonoBehaviour
     public static StartManager Instance { get; private set; }
 
     [Header("StartScene UI")]
-    [SerializeField] private Button touchPanel;
+    [SerializeField] public Button touchPanel;
     [SerializeField] private TextMeshProUGUI touchToStartText;
     [SerializeField] private CanvasGroup startCanvasGroup;
 
@@ -28,15 +29,28 @@ public class StartManager : MonoBehaviour
             Instance = this;
         else
             Destroy(gameObject);
+
+        touchPanel.interactable = false;
     }
 
-    private void Start()
+    private async Task Start()
     {
-        touchPanel.onClick.AddListener(OnTouchPanelClicked);
+        await FirebaseManager.Instance.InitializeAsync();
+
+        if (FirebaseManager.Instance.IsReady)
+        {
+            TopicManager.Instance.LoadTopicAsync();
+        }
+        else
+        {
+            FirebaseManager.Instance.OnInitialized += TopicManager.Instance.LoadTopicAsync;
+        }
+
+
         blinkCoroutine = StartCoroutine(BlinkText());
     }
 
-    private void OnTouchPanelClicked()
+    public void OnTouchPanelClicked()
     {
         if (isStarted) return;
         isStarted = true;
@@ -49,12 +63,10 @@ public class StartManager : MonoBehaviour
         StartCoroutine(StartGame());
     }
 
+
     private IEnumerator StartGame()
     {
         yield return StartCoroutine(FadeOutStartCanvas());
-
-        // 로딩 화면 표시
-        LoadingScreen.Instance.Show();
 
         // 씬 로딩 요청
         GameSceneManager.Instance.LoadMainScene();
