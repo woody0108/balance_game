@@ -215,49 +215,8 @@ public class BalanceIconAnimator : MonoBehaviour
         moveDistance = Mathf.Max(0f, moveDistance);
     }
 
-    #endregion
 
-    #region Debug Helpers
 
-#if UNITY_EDITOR
-    [ContextMenu("▶️ Play Animation")]
-    private void DebugPlay()
-    {
-        if (!Application.isPlaying)
-        {
-            Debug.LogWarning("Play 모드에서만 작동합니다!");
-            return;
-        }
-        Play();
-    }
-
-    [ContextMenu("⏸️ Stop Animation")]
-    private void DebugStop()
-    {
-        if (!Application.isPlaying) return;
-        Stop();
-    }
-
-    [ContextMenu("🔄 Reset Position")]
-    private void DebugReset()
-    {
-        if (!Application.isPlaying) return;
-        ResetPosition();
-    }
-
-    [ContextMenu("📋 Check Setup")]
-    private void DebugCheckSetup()
-    {
-        Debug.Log("===== BalanceIcon 설정 확인 =====");
-        Debug.Log($"Left Circle: {(leftCircle != null ? "✅" : "❌ 필요!")}");
-        Debug.Log($"Right Circle: {(rightCircle != null ? "✅" : "❌ 필요!")}");
-        Debug.Log($"Play On Start: {playOnStart}");
-        Debug.Log($"Animation Speed: {animationSpeed}");
-        Debug.Log($"Move Distance: {moveDistance}");
-        Debug.Log($"Animation Type: {animationType}");
-        Debug.Log("================================");
-    }
-#endif
 
     #endregion
 }
