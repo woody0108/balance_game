@@ -1,0 +1,79 @@
+{
+  "categories": [
+    {
+      "category": "경제",
+      "items": [
+        { "question": "지금 돈이 생긴다면?", "optionA": "투자", "optionB": "예금" },
+        { "question": "월급 관리 방법은?", "optionA": "적금", "optionB": "투자" },
+        { "question": "주식 투자 스타일?", "optionA": "단타", "optionB": "장기" },
+        { "question": "부동산 전망?", "optionA": "상승", "optionB": "하락" },
+        { "question": "돈을 벌기 위해 더 중요한 건?", "optionA": "운", "optionB": "노력" },
+        { "question": "재테크 첫 시작?", "optionA": "금리 높은 예금", "optionB": "ETF" },
+        { "question": "비상금 어디 보관?", "optionA": "현금", "optionB": "은행" },
+        { "question": "돈 아끼는 법?", "optionA": "절약", "optionB": "벌기" },
+        { "question": "돈을 더 쓰는 건?", "optionA": "택시", "optionB": "배달" },
+        { "question": "결혼 자금 모으기?", "optionA": "투잡", "optionB": "절약" }
+      ]
+    },
+    {
+      "category": "유머",
+      "items": [
+        { "question": "여사친/남사친", "optionA": "있다", "optionB": "없다" },
+        { "question": "배달 왔는데 젓가락 하나?", "optionA": "참음", "optionB": "환불함" },
+        { "question": "급식에서 제일 맛있는 건?", "optionA": "돈까스", "optionB": "김치볶음밥" },
+        { "question": "방 청소 언제 함?", "optionA": "오늘", "optionB": "내일" },
+        { "question": "카톡 읽씹 vs 안읽씹", "optionA": "읽씹이 나쁨", "optionB": "안읽씹이 나쁨" },
+        { "question": "라면 스프 먼저?", "optionA": "물 먼저", "optionB": "스프 먼저" },
+        { "question": "피자 끝부분?", "optionA": "먹는다", "optionB": "안먹는다" },
+        { "question": "치킨 먹을 때", "optionA": "뿌링클", "optionB": "양념" },
+        { "question": "여름 최악", "optionA": "모기", "optionB": "더위" },
+        { "question": "겨울 최악", "optionA": "추위", "optionB": "발시림" }
+      ]
+    },
+    {
+      "category": "음식",
+      "items": [
+        { "question": "삼겹살 먹는 방식", "optionA": "상추쌈", "optionB": "그냥 먹기" },
+        { "question": "국물 없는 라면 vs 국물 라면", "optionA": "무조건 국물", "optionB": "비빔" },
+        { "question": "치킨 부위", "optionA": "날개", "optionB": "다리" },
+        { "question": "피자 파인애플", "optionA": "좋아함", "optionB": "싫어함" },
+        { "question": "떡볶이 취향", "optionA": "국물 많은", "optionB": "쫀득한" },
+        { "question": "샌드위치", "optionA": "뜨겁게", "optionB": "차갑게" },
+        { "question": "햄버거 구성", "optionA": "양상추 필수", "optionB": "양상추 제외" },
+        { "question": "커피 취향", "optionA": "아메리카노", "optionB": "라떼" },
+        { "question": "아침식사", "optionA": "꼭 먹는다", "optionB": "안 먹음" },
+        { "question": "라면 건더기", "optionA": "무조건 넣음", "optionB": "빼고 끓임" }
+      ]
+    },
+    {
+      "category": "연애",
+      "items": [
+        { "question": "연락 스타일", "optionA": "자주", "optionB": "필요할 때만" },
+        { "question": "데이트 비용", "optionA": "N빵", "optionB": "한명이 더냄" },
+        { "question": "사랑 표현", "optionA": "말", "optionB": "행동" },
+        { "question": "연애 시작", "optionA": "고백 후", "optionB": "썸 타면" },
+        { "question": "전여친/전남친 연락", "optionA": "절대 안됨", "optionB": "상황에 따라" },
+        { "question": "질투", "optionA": "필수", "optionB": "불필요" },
+        { "question": "데이트 장소", "optionA": "집", "optionB": "밖" },
+        { "question": "연애 기간 중요?", "optionA": "중요", "optionB": "안중요" },
+        { "question": "헤어짐 원인", "optionA": "성격차이", "optionB": "권태기" },
+        { "question": "연락 끊기면?", "optionA": "먼저 연락", "optionB": "기다림" }
+      ]
+    },
+    {
+      "category": "생활",
+      "items": [
+        { "question": "아침형 vs 저녁형", "optionA": "아침형", "optionB": "저녁형" },
+        { "question": "운동 스타일", "optionA": "헬스", "optionB": "유산소" },
+        { "question": "집 청소", "optionA": "매일", "optionB": "필요할 때" },
+        { "question": "샤워 시간", "optionA": "아침", "optionB": "밤" },
+        { "question": "밥 먹는 속도", "optionA": "빨리", "optionB": "천천히" },
+        { "question": "물 마시는 습관", "optionA": "많이", "optionB": "적게" },
+        { "question": "알람", "optionA": "하나", "optionB": "여러 개" },
+        { "question": "집순이/집돌이?", "optionA": "YES", "optionB": "NO" },
+        { "question": "옷 스타일", "optionA": "편한 옷", "optionB": "꾸꾸템" },
+        { "question": "필통", "optionA": "있다", "optionB": "안씀" }
+      ]
+    }
+  ]
+}

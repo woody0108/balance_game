@@ -45,7 +45,7 @@ public class FirebaseManager : MonoBehaviour
     }
     public FirebaseInitState InitState { get; private set; } = FirebaseInitState.None;
     public bool IsReady => InitState == FirebaseInitState.Success;
-    private FirebaseFirestore db;
+    public FirebaseFirestore db;
 
     #endregion
 

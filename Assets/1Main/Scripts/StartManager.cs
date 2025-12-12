@@ -45,7 +45,7 @@ public class StartManager : MonoBehaviour
         {
             FirebaseManager.Instance.OnInitialized += TopicManager.Instance.LoadTopicAsync;
         }
-
+         //await  FirestoreAutoUploader.Instance.UploadFromJSON(); create json file only
 
         blinkCoroutine = StartCoroutine(BlinkText());
     }

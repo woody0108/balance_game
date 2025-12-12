@@ -58,7 +58,9 @@
     <Compile Include="Assets\1Main\Scripts\CameraScaler.cs" />
     <Compile Include="Assets\1Main\Scripts\SafeArea.cs" />
     <Compile Include="Assets\1Main\Scripts\UI\LoadingScreen.cs" />
+    <Compile Include="Assets\1Main\Scripts\FirestoreAutoUploader.cs" />
     <Compile Include="Assets\1Main\Scripts\BalanceIconAnimator.cs" />
+    <Compile Include="Assets\1Main\Scripts\CreateTopicData.cs" />
     <Compile Include="Assets\1Main\Scripts\Manager\FirebaseManager.cs" />
   </ItemGroup>
   <ItemGroup>
